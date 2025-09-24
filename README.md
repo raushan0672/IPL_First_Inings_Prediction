@@ -1,11 +1,11 @@
 # IPL_First_Inings_Prediction
 
-About
+**About**
 
 This project predicts the first-innings score in IPL matches using ball-by-ball data. The dataset had around 76,000 deliveries, and I applied regression models to check how well they could estimate the final score.
 
 
-Steps I Followed
+**Steps I Followed**
 
 Cleaned the dataset (removed extra columns, kept consistent teams, fixed dates)
 
@@ -16,7 +16,7 @@ Trained models: Linear Regression, Decision Tree, Random Forest
 Evaluated models using MAE, MSE, RMSE
 
 
-Results
+**Results**
 
 The models gave fairly good predictions
 
