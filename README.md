@@ -2,7 +2,7 @@
 
 **About**
 
-This project predicts the first-innings score in IPL matches using ball-by-ball data. The dataset had around 76,000 deliveries, and I applied regression models to check how well they could estimate the final score.
+This project predicts the first-innings score in IPL matches using ball-by-ball data. The dataset contained around 76,000 deliveries, and I applied regression models to estimate the final score.
 
 
 **Steps I Followed**
@@ -13,13 +13,21 @@ Used features like overs, runs scored, and wickets
 
 Trained models: Linear Regression, Decision Tree, Random Forest
 
-Evaluated models using MAE, MSE, RMSE
+Evaluated models using : Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
 
 
 **Results**
 
 The models gave fairly good predictions
 
-Random Forest performed the best
+Linear Regression → MAE: 12.12, RMSE: 15.84
 
-Found that early wickets and run rate strongly affect the final score
+Decision Tree → MAE: 17.25, RMSE: 23.21
+
+Random Forest → MAE: 13.77, RMSE: 18.20
+
+Linear Regression performed the best
+Decision Tree was the weakest
+
+
+From the analysis, I observed that early wickets and run rate have a strong impact on the final score
