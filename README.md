@@ -26,8 +26,7 @@ Decision Tree → MAE: 17.25, RMSE: 23.21
 
 Random Forest → MAE: 13.77, RMSE: 18.20
 
-Linear Regression performed the best,   
-Decision Tree was the weakest
+Linear Regression performed the best,  Decision Tree was the weakest
 
 
 From the analysis, I observed that early wickets and run rate have a strong impact on the final score
